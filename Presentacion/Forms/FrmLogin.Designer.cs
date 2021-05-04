@@ -40,6 +40,8 @@ namespace Presentacion.Forms
             this.lblErrorMensaje = new System.Windows.Forms.Label();
             this.ipbCerrar = new FontAwesome.Sharp.IconPictureBox();
             this.ipbMinimizar = new FontAwesome.Sharp.IconPictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ipbCerrar)).BeginInit();
@@ -196,19 +198,41 @@ namespace Presentacion.Forms
             this.ipbMinimizar.TabStop = false;
             this.ipbMinimizar.Click += new System.EventHandler(this.ipbMinimizar_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(245, 87);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(379, 13);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "______________________________________________________________";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(245, 140);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(379, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "______________________________________________________________";
+            // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(54)))), ((int)(((byte)(75)))));
             this.ClientSize = new System.Drawing.Size(655, 280);
+            this.Controls.Add(this.txtPass);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.ipbCerrar);
             this.Controls.Add(this.ipbMinimizar);
             this.Controls.Add(this.lblErrorMensaje);
             this.Controls.Add(this.linkPass);
             this.Controls.Add(this.btnAcceder);
-            this.Controls.Add(this.txtPass);
-            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -238,5 +262,7 @@ namespace Presentacion.Forms
         private System.Windows.Forms.Label lblErrorMensaje;
         private FontAwesome.Sharp.IconPictureBox ipbCerrar;
         private FontAwesome.Sharp.IconPictureBox ipbMinimizar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
