@@ -263,8 +263,7 @@ namespace Presentacion.Forms
 
         private void MostrarLogo()
         {
-            newLogo = Image.FromFile("E:\\Programitas Practicos C#\\CapasAvanzado\\Iconos\\Pañol.png");
-            pictureBox3.Image = newLogo;
+            this.pictureBox3.Image = global::Presentacion.Properties.Resources.Pañol;
             this.pnlContenedor.Controls.Add(pictureBox3);
         }
 

@@ -1,4 +1,0 @@
-inicio windows
-"Data Source=DESKTOP-ET78VFO;Initial Catalog=MyCompany;Integrated Security=True"
-Inicio sqlserver
-"Data Source=DESKTOP-ET78VFO;DataBase=MyCompany;User Id=AccesoApp ; Password=admin123"
